@@ -9,3 +9,9 @@ To train a toy GPT-2 model from scratch, run: `python main.py --mode train --con
 <br>
 
 To sample from the trained model, run: `python main.py --mode sample --config ./config/config.txt --text "Your prompt"`
+
+<br>
+
+## Reference:
+
+Build a Large Language Model (From Scratch) by Sebastian Raschka
