@@ -1,0 +1,25 @@
+[TRAINING]
+
+file_path = data/the-verdict.txt
+vocab_size = 50257
+context_length = 256
+emb_dim = 768
+n_heads = 12
+n_layers = 12
+drop_rate = 0.1
+qkv_bias = False      
+model_path = out_dir/model.pth
+
+[INFERENCE]
+
+vocab_size = 50257
+context_length = 256
+emb_dim = 768
+n_heads = 12
+n_layers = 12
+drop_rate = 0.1
+qkv_bias = False 
+model_path = out_dir/model.pth
+max_new_tokens = 15
+top_k = 25
+temperature = 1.4
